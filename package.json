@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 server.js --name vueback --watch",
-    "stop": "pm2 vueback"
+    "start": "pm2 start ./server.js --name vueback --watch",
+    "stop": "pm2 stop vueback"
   },
   "keywords": [],
   "author": "",
